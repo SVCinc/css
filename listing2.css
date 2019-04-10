@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800');
+body {font-family: 'Work Sans', sans-serif; font-weight:400; overflow-x: hidden; background:url(https://raw.githubusercontent.com/SVCinc/images/master/images/mainbg.jpg) repeat center top;}
+a {	transition: 0.5s all ease;}
+img {	max-width: 100%;}
+.maincontainer {	margin: 0 auto;	max-width: 1380px; width: 100%; background:#fff;}
+.headercont { background:url(../images/logoleftbg.jpg) no-repeat left top 3px, url(https://raw.githubusercontent.com/SVCinc/images/master/images/headerbg.jpg) no-repeat right top #000; min-height:90px;}
+.logo { display:inline-block; margin-left:148px;}
+.phonenu { display:inline-block; margin-left: 206px;}
+.righttop { float:right;    margin-right: 111px;}
+.righttop a:first-child { margin-top: 5px;
+    margin-bottom: 7px; display:inline-block;}
+.subcontainer {margin: 0 auto;	max-width: 1170px; width: 100%; padding:0 15px;}
+.prodname { font-size:33px; font-weight:700; line-height:normal; border-bottom:1px solid #d9d9d9;}
+.prodname span { font-weight:normal; font-size:25px;} 
+.shortdetail { font-size:14px; line-height:22px;border-bottom:1px solid #d9d9d9;}
+.pageheading {	font-size: 18px;	color: #fff;	font-weight: bold;	background: #272727;	border-bottom: 2px solid #077bf8;	line-height: 42px; text-transform:uppercase;}
+.pageheading img {	float: left;	margin-right: 25px;	margin-top: -2px;}
+.detailcont { font-size:15px; color:#111111; line-height:22px; padding:15px;}
+.footercont { background:#000000;}
+.footerheading { font-size:20px; color:#fff; text-transform:capitalize; font-weight:bold; margin-bottom:15px;}
+.footerlinks { font-size:14px; color:#959595; margin:0; padding:0;}
+.footerlinks li{ list-style:none; margin-bottom:10px;}
+.footerlinks li a:link,.footerlinks li a:active,.footerlinks li a:visited { color:#959595;}
+.copyright { padding:25px 0; margin-top:15px; border-top:1px dotted #525252; text-align:center; color:#fff; font-size:15px;}
+@media screen and (max-width:1230px){
+.phonenu {margin-left: 71px;}
+}
+
+@media screen and (max-width:1040px){
+.phonenu {display:none;}
+}
+@media screen and (max-width:830px){
+.headercont { background:url(https://raw.githubusercontent.com/SVCinc/images/master/images/headerbg.jpg) no-repeat center top #000; text-align:center;min-height:inherit;}
+.logo  { display:inline-block; margin:0;}
+.righttop { display:none;} 
+}
